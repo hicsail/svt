@@ -9,9 +9,9 @@ import torch.nn as nn
 import torch.nn.functional as F
 from einops import rearrange
 
-from models.helpers import load_pretrained
-from models.vit_utils import DropPath, to_2tuple, trunc_normal_
-from models.vit_utils import IMAGENET_DEFAULT_MEAN, IMAGENET_DEFAULT_STD
+from svt.models.helpers import load_pretrained
+from svt.models.vit_utils import DropPath, to_2tuple, trunc_normal_
+from svt.models.vit_utils import IMAGENET_DEFAULT_MEAN, IMAGENET_DEFAULT_STD
 
 
 def _cfg(url='', **kwargs):

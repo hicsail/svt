@@ -1,8 +1,8 @@
 import pandas as pd
 from tqdm import tqdm
 
-from datasets.decoder import decode
-from datasets.video_container import get_video_container
+from svt.datasets.decoder import decode
+from svt.datasets.video_container import get_video_container
 
 root_path = "/home/kanchanaranasinghe/data/kinetics400"
 

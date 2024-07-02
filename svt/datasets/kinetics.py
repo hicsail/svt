@@ -9,11 +9,11 @@ import torch.utils.data
 import torchvision
 import kornia
 
-from datasets.transform import resize
-from datasets.data_utils import get_random_sampling_rate, tensor_normalize, spatial_sampling, pack_pathway_output
-from datasets.decoder import decode
-from datasets.video_container import get_video_container
-from datasets.transform import VideoDataAugmentationDINO
+from svt.datasets.transform import resize
+from svt.datasets.data_utils import get_random_sampling_rate, tensor_normalize, spatial_sampling, pack_pathway_output
+from svt.datasets.decoder import decode
+from svt.datasets.video_container import get_video_container
+from svt.datasets.transform import VideoDataAugmentationDINO
 from einops import rearrange
 
 

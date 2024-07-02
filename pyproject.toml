@@ -2,8 +2,17 @@
 name = "svt"
 version = "0.1.0"
 description = ""
-authors = ["cbolles <collinbolles@gmail.com>"]
+authors = [
+  "Kanchana Ranasinghe <kranasinghe@cs.stonybrook.edu>",
+  "Muzammal Naseer <https://muzammal-naseer.netlify.app/#contact>",
+  "Salman Khan <salman.khan(at)mbzuai.ac.ae>",
+  "Fahad Shahbaz Khan",
+  "Michael S. Ryoo <mryoo@cs.stonybrook.edu>"
+]
 readme = "README.md"
+packages = [
+  { include = "svt" }
+]
 
 [tool.poetry.dependencies]
 python = "^3.9"

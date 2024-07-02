@@ -9,7 +9,7 @@ import torch
 import torch.utils.data
 from fvcore.common.file_io import PathManager
 
-import timesformer.utils.logging as logging
+import svt.timesformer.utils.logging as logging
 
 from . import data_utils as utils
 from .build import DATASET_REGISTRY
