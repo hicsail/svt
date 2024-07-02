@@ -1,0 +1,34 @@
+[tool.poetry]
+name = "svt"
+version = "0.1.0"
+description = ""
+authors = ["cbolles <collinbolles@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = ">=1.18.4"
+torch = ">=1.7.1"
+torchvision = ">=0.2.1"
+pillow = ">=5.4.1"
+fvcore = ">=0.1.5"
+scikit-learn = ">=0.23.2"
+simplejson = ">=3.17.5"
+einops = ">=0.3.0"
+timm = ">=0.4.12"
+tqdm = ">=4.29.1"
+kornia = ">=0.5.8"
+opencv-python = ">=3.4.3.18"
+pandas = ">=0.23.4"
+joblib = ">=0.16.0"
+matplotlib = ">=3.1.1"
+requests = ">=2.25.1"
+scikit-image = ">=0.15.0"
+av = ">=9.2.0"
+
+
+[tool.poetry.group.dev.dependencies]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
